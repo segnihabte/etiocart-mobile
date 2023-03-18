@@ -26,7 +26,7 @@ class _MyAppState extends State<MyApp> {
   DarkThemeProvider themeChangeProvider = DarkThemeProvider();
   //a boolean value to check if the value of log in is there
   //not for production code
-  bool isLoggedIn = true;
+  bool isLoggedIn = false;
 
   myAppState() {
     //goes into shared preference's instance method
